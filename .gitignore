@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+
+# Turbo
+.turbo/
+
+# Build outputs
+dist/
+.next/
+out/
+
+# Expo
+.expo/
+web-build/
+expo-env.d.ts
+
+# Native builds (Expo)
+apps/client-app/ios/
+apps/client-app/android/
+
+# Kotlin
+.kotlin/
+
+# Keys and credentials
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# Firebase config files (contain project-specific credentials)
+GoogleService-Info.plist
+google-services.json
+
+# Metro
+.metro-health-check*
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+
+# Environment files
+.env
+.env.production
+.env*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+coverage/
+
+# Misc
+app-example
